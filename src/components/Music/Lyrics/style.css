@@ -1,0 +1,55 @@
+.contains-all-lyrics .contains-lyrics{
+    flex: 1;
+    margin-left: 100px;
+}
+.contains-lyrics .contains-title{
+    position: relative;
+    display: flex;
+}
+.contains-lyrics .contains-title span{
+    flex: 1;
+    padding: 5px 50px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.contains-lyrics .contains-title .title-original{
+    color: white;
+    text-align: right;
+    background-color: red;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.contains-lyrics .contains-title .circle-title{
+    position: absolute;
+    left: 50%;
+    top: -8px;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 45px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: var(--dark-water-green);
+}
+.contains-lyrics .contains-title .title-translation{
+    color: var(--dark-water-green);
+    text-align: left;
+    background-color: var(--light-water-green);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.contains-lyrics .lyrics{
+    display: flex;
+}
+.contains-lyrics .lyrics div{
+    width: 50%;
+    padding: 10px;
+    color: grey;
+    font-size: 15px;
+    text-indent: 0;
+}
+.contains-lyrics .lyrics .lyrics-original{
+    text-align: right;
+}
+.contains-lyrics .lyrics .lyrics-translation{
+    text-align: left;
+}

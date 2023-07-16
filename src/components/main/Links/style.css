@@ -1,0 +1,6 @@
+.link{
+    color: var(--dark-water-green);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}

@@ -1,0 +1,28 @@
+header.header div.options{
+    width: 90%;
+    max-width: 900px;
+    padding: 25px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header.header div.options .side_menu_open,
+header.header div.options .profile{
+    cursor: pointer;
+    transition: .35s;
+}
+header.header div.options .side_menu_open:hover,
+header.header div.options .profile:hover{
+    transform: scale(1.1);
+}
+header.header nav.nav{
+    width: 90%;
+    max-width: 1080px;
+    display: flex;
+}
+header.header div.border{
+    width: 91%;
+    max-width: 1157px;
+    box-shadow: var(--shadow-border);
+    border-bottom: 2px solid var(--light-gray);
+}

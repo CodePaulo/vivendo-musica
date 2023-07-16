@@ -1,0 +1,77 @@
+.contains-coment{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+.contains-coment .profile{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: var(--blue-grey);
+}
+.contains-coment .profile .icon{
+    font-size: 27px;
+}
+.contains-coment .contains-profile{
+    flex: 1;
+}
+.contains-coment .contains-profile .title{
+    font-weight: bolder;
+    font-size: 18px;
+    color: var(--dark-water-green);
+}
+.contains-coment .contains-profile .time-coment{
+    font-size: 13px;
+    color: grey;
+}
+.contains-coment .contains-profile .coment{
+    margin-top: 7px;
+    font-size: 14px;
+    text-align: justify;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical; 
+}
+.contains-profile .showMore{
+    color: var(--dark-water-green);
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 15px;
+}
+.contains-coment .contains-profile .addResponse{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.contains-profile .addResponse .amount-responses{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--dark-brown);
+}
+.contains-profile .addResponse .button{
+    font-size: 12px;
+    padding: 8px 25px;
+    margin: 0 10px;
+}
+.contains-profile .addResponse .input{
+    font-size: 12px;
+    margin: 0;
+}
+.contains-profile .moreResponses{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: var(--dark-water-green);
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 14px;
+}
+.contains-profile .moreResponses span{
+    flex: 1;
+    border-bottom: 1px solid var(--dark-water-green);
+}
+.contains-profile .moreResponses p{
+    margin: 0 10px;
+}

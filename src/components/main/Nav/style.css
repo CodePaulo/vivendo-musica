@@ -1,0 +1,96 @@
+nav.lateral-menu{
+    position: absolute;
+    top: 0;
+    left: -400px;
+    width: 341px;
+    height: 100vh;
+    padding: 10px 20px;
+    background-color: white;
+    z-index: 200000000000000000;
+    -webkit-box-shadow: 10px 3px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 3px 12px -2px rgba(0,0,0,0.75);
+    box-shadow: 10px 3px 12px -2px rgba(0,0,0,0.75);
+    transition: .35s;
+}
+
+nav.openMenu{
+    left: 0;
+}
+
+nav.lateral-menu div.contain-close-menu{
+    position: absolute;
+    right: -43px;
+    top: 25px;
+    width: 43px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 10px 3px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 3px 12px -2px rgba(0,0,0,0.75);
+    box-shadow: 10px 3px 12px -2px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+nav.lateral-menu div.contain-close-menu:hover > .icon{
+    box-shadow: var(--shadow);
+}
+
+div.contain-close-menu .icon{
+    background-color: var(--dark-water-green);
+    padding: 8px 10px;
+    border-radius: 50%;
+    margin-right: 0;
+    color: white;
+}
+
+div.useful-links{
+    padding: 5px 23px;
+}
+
+div.useful-link{
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+
+div.useful-link .icon{
+    font-size: 25px;
+    color: var(--dark-water-green);
+    margin-left: 0;
+}
+
+div.useful-link .link{
+    flex: 1;
+    padding: 0 10px;
+}
+
+.link:hover{
+    background-color: var(--blue-grey);
+}
+
+div.categories{
+    width: 80%;
+    height: calc(100vh - 340px);
+    padding: 5px 10px;
+    margin-right: 0;
+    border-top: 1px solid var(--light-gray);
+    color: var(--dark-water-green);
+    overflow: auto;
+}
+
+div.categories::-webkit-scrollbar-track {
+    background-color: rgba(200, 200, 200, 0);
+}
+div.categories::-webkit-scrollbar {
+    width: 9px;
+    background: rgba(200, 200, 200, 0);
+}
+div.categories::-webkit-scrollbar-thumb {
+    background: var(--dark-water-green);
+    border: 2px solid white;
+    border-radius: 50px;
+}

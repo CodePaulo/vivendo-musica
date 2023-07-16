@@ -1,0 +1,65 @@
+div.list{
+    width: 100%;
+    height: calc(100% - 107px);
+    overflow: auto;
+    padding-bottom: 10px;
+}
+div.list::-webkit-scrollbar-track {
+    background-color: rgba(200, 200, 200, 0);
+}
+div.list::-webkit-scrollbar {
+    width: 9px;
+    background: rgba(200, 200, 200, 0);
+}
+div.list::-webkit-scrollbar-thumb {
+    background: var(--dark-water-green);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+div.list .album-title{
+    padding: 5px 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-border);
+    cursor: pointer;
+}
+div.list .album-title p{
+    flex: 1;
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--dark-water-green);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+div.list .album-title .album-icon{
+    color: var(--light-gray);
+    font-size: 20px;
+}
+div.list ul{
+    list-style-position: inside;
+    list-style-type: decimal;
+    overflow: hidden;
+    transition: .35s;
+}
+div.list .close-list{
+    height: 0;
+}
+div.list ul .link-music{
+    text-decoration: none;
+}
+div.list ul li{
+    text-align: center;
+    font-weight: bolder;
+    color: var(--dark-water-green);
+    padding: 10px 5px;
+}
+div.list ul li:hover{
+    background-color: rgba(200, 200, 200, 0.5);
+}
+div.list ul li:last-child{
+    border: none;
+}

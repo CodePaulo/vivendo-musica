@@ -1,0 +1,10 @@
+input.input{
+    flex: 1;
+    border: none;
+    margin: 0 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    outline: none;
+    color: var(--dark-water-green);
+    border-bottom: 1px solid var(--dark-water-green);
+}

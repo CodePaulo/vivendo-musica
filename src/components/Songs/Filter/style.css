@@ -1,0 +1,25 @@
+.filter{
+    width: 100%;
+    display: flex;
+    padding: 5px 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-brown);
+}
+.filter .option{
+    color: white;
+    min-width: 30px;
+    padding: 2px 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.filter .option:hover{
+    background-color: red;
+    box-shadow: var(--shadow-box);
+}
+.filter .option-selected{
+    background-color: red;
+    box-shadow: var(--shadow-box);
+}

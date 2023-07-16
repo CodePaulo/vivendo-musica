@@ -1,0 +1,12 @@
+button.button{
+    padding: 12px 40px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--dark-water-green);
+}

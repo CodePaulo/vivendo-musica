@@ -1,0 +1,42 @@
+.artist{
+    display: inline-block;
+    width: calc(100% / 6);
+    padding: 20px 5px;
+}
+.artist .picture{
+    position: relative;
+    width: 100%;
+    max-width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    transition: .35s;
+    cursor: pointer;
+    box-shadow: var(--shadow-box);
+    background-color: var(--light-water-green);
+    overflow: hidden;
+}
+.artist .picture:hover{
+    transform: scale(1.05);
+}
+.artist h2{
+    color: var(--dark-water-green);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: rgba(0, 0, 0, .5) 0.1em 0.1em 0.2em;
+}
+.artist .icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3em;
+    color: var(--dark-water-green);
+}
+.artist .picture img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+}

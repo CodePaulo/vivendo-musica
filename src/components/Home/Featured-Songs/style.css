@@ -1,0 +1,18 @@
+.feature-songs{
+    width: calc(100% / 3);
+    background-color: var(--dark-brown);
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.feature-songs h3{
+    font-size: 20px;
+}
+
+.feature-songs h4{
+    font-size: 15px;
+    font-weight: normal;
+}

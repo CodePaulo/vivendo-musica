@@ -1,0 +1,43 @@
+.stories{
+    flex: 1;
+    padding-left: 30px;
+}
+.stories .contains-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stories .contains-title .title{
+    flex: 1;
+    padding: 7px;
+    font-size: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+    color: var(--dark-water-green);
+    background-color: var(--light-water-green);
+}
+.stories .contains-title .profile{
+    width: 75px;
+    height: 75px;
+    margin-left: -15px;   
+    border: 7px solid white;   
+    background-color: var(--blue-grey);
+}
+.stories .history{
+    text-align: justify;
+    text-indent: 1em;
+    color: grey;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 40px;
+}
+.stories .title{
+    margin-bottom: 0;
+}
+.stories .amountComents{
+    color: var(--dark-water-green);
+    font-weight: bolder;
+    font-size: 15px;
+    text-indent: .5em;
+}

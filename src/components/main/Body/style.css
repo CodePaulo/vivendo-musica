@@ -1,0 +1,23 @@
+section.body{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: calc(100vh - 124px);
+    overflow: auto;
+}
+section.body .contain{
+    width: 95%;
+    max-width: 1250px;
+}
+section.body::-webkit-scrollbar-track {
+    background-color: rgba(200, 200, 200, 0);
+}
+section.body::-webkit-scrollbar {
+    width: 9px;
+    background: rgba(200, 200, 200, 0);
+}
+section.body::-webkit-scrollbar-thumb {
+    background: var(--dark-water-green);
+    border: 2px solid white;
+    border-radius: 50px;
+}

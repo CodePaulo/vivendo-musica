@@ -1,0 +1,9 @@
+.filter{
+    top: 145px;
+    position: fixed;
+    max-width: 1250px;
+    z-index: 1000000;
+}
+.artist-filter{
+    margin-top: 40px;
+}

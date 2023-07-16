@@ -1,0 +1,44 @@
+.experiences{
+    flex: 1;
+}
+.experiences .more-experiences{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.experiences .more-experiences li{
+    width: 100%;
+    border: 2px solid white;
+    padding: 2px 5px;
+    text-align: center;
+    font-weight: bolder;
+    color: grey;
+    cursor: pointer;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.experiences .more-experiences .no-style,
+.experiences .more-experiences .no-style:hover{
+    background-color: transparent;
+    color: grey;
+    cursor: auto;
+}
+.experiences .more-experiences .selected,
+.experiences .more-experiences li:hover{
+    background-color: red;
+    color: white;
+}
+.experiences .contains-experiences .experience-box{
+    width: calc(100% / 2);
+    display: inline-block;
+    padding: 10px;
+}
+.experiences .contains-experiences .experience-box:nth-of-type(1),
+.experiences .contains-experiences .experience-box:nth-of-type(3){
+    padding-left: 30px;
+}
+.experiences .contains-experiences .experience-box:nth-of-type(2),
+.experiences .contains-experiences .experience-box:nth-of-type(4){
+    padding-right: 30px;
+}

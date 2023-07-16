@@ -1,0 +1,31 @@
+div.title:nth-of-type(1){
+    margin-top: 0px;
+}
+.carousel{
+    padding: 0px 50px;
+}
+.carousel:last-child{
+    margin-bottom: 20px;
+}
+.carousel .icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 42px;
+    color: var(--dark-water-green);
+    cursor: pointer;
+    transition: .35s;
+}
+.carousel .left{
+    left: 0;
+}
+.carousel .right{
+    right: 0;
+}
+.carousel .icon:hover{
+    transform: translateY(-50%) scale(1.1);
+}
+.carousel .experience-box:hover{
+    transition: .35s;
+    transform: scale(1.05);
+}

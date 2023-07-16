@@ -1,0 +1,71 @@
+.experience-box{
+    padding: 10px 30px;
+}
+.experience-box .content{
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+.experience-box .content p{
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    -webkit-box-orient: vertical; 
+    font-size: 14px;
+    font-weight: bolder;
+    color: grey;
+    text-indent: 8px;
+}
+.experience-box .contain-profile-experience{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    padding: 5px 10px;
+    margin-top: -28px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    background-color: var(--dark-brown);
+}
+.experience-box .contain-profile-experience .descritive{
+    flex: 1;
+    padding: 0 10px;
+    color: white;
+}
+.experience-box .contain-profile-experience .descritive p,
+.experience-box .contain-profile-experience .descritive div span{
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical; 
+}
+.experience-box .contain-profile-experience .descritive p{
+    font-weight: bolder;
+    font-size: 13px;
+}
+.experience-box .contain-profile-experience .descritive div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.experience-box .contain-profile-experience .descritive div span{
+    font-size: 12px;
+}
+.experience-box .contain-profile-experience .descritive div span:nth-of-type(1){
+    max-width: 55%;
+    margin-right: 5px;
+}
+.experience-box .contain-profile-experience .descritive div span:nth-of-type(2){
+    flex: 1;
+}
+.experience-box .contain-profile-experience .profile{
+    position: relative;
+}
+.experience-box .contain-profile-experience .profile .icon{
+    position: absolute;
+    top: 50%;
+    transform: scale(1) translateY(-50%);
+}

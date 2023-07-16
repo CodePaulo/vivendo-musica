@@ -1,0 +1,25 @@
+div.profile{
+    background-color: white;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.profile .icon{
+    color: var(--dark-water-green);
+    font-size: 22px;
+}
+
+div.profile img{
+    height: 100%;
+}
+
+div.shadow{
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+}
